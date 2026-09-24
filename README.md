@@ -3,7 +3,7 @@ Loan Approval prediction system
 
 ## how to install required packages
 ```Python
-pip install -r requirement
+pip install -r requirement.txt
 ```
 
 ## Technologies
