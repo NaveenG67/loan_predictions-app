@@ -1,7 +1,12 @@
 # Loan prediction App
 Loan Approval prediction system
 
-# Technologies
+## how to install required packages
+'''Python
+pip install -r requirement
+'''
+
+## Technologies
 - Python
 - Machine Learning
 - Postgre SQL
