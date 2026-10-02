@@ -1,0 +1,15 @@
+
+============================================================                 Exploratory Data Analysis                  ============================================================
+Dataset Shape: (614, 13)               
+Target Variable Distribution                Loan_Status
+Y    422
+N    192
+Name: count, dtype: int64              
+Education Variable Distribution              Education
+Graduate        480
+Not Graduate    134
+Name: count, dtype: int64            
+Self Employed Variable Distribution            Self_Employed
+No     500
+Yes     82
+Name: count, dtype: int64
