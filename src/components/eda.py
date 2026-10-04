@@ -1,8 +1,9 @@
 import pandas as pd
 import os
+from config.paths import REPORT_PATH
 
-Artifacts_path = "../artifacts/reports"
-os.makedirs(Artifacts_path, exist_ok=True)
+Artifacts_path = REPORT_PATH
+
 
 def basic_eda(data: pd.DataFrame):
     print('\n' + '=' * 60)
@@ -28,7 +29,7 @@ def basic_eda(data: pd.DataFrame):
 
     print(pd.crosstab(data['Self_Employed'], data['Loan_Status']))
 
-    with open('dataset_summary.txt', 'w') as file:
+    with open(REPORT_PATH/'dataset_summary.txt', 'w') as file:
         file.write('\n' + '=' * 60)
         file.write('\nExploratory Data Analysis\n'.center(60))
         file.write('\n'+'=' * 60)
