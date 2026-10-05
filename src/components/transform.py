@@ -8,6 +8,7 @@ def classify_features(data:pd.DataFrame):
 
     categorical_features.remove('Loan_Status')
     target = 'Loan_Status'
+    categorical_features.remove('Loan_ID')
 
     return (numerical_features,
             categorical_features,

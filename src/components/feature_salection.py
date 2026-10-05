@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 
 def select_features(data:pd.DataFrame):
-    data = data.drop(columns=['Loan_ID'])
 
     data['Loan_Amount_log'] = np.log(data['LoanAmount'])
 
